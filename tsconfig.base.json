@@ -14,12 +14,11 @@
     "isolatedModules": true
   },
   "references": [
-    // 미래에 추가할 패키지들
     {
-      "path": "packages/core"
+      "path": "packages/deliver"
     },
     {
-      "path": "packages/example"
+      "path": "packages/user"
     }
   ],
   "exclude": ["packages/**/dist/**"],

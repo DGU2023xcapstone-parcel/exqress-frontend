@@ -17,29 +17,11 @@
     {
       "path": "packages/deliver"
     },
-    // {
-    //   "path": "packages/client-b"
-    // },
+    {
+      "path": "packages/user"
+    },
     {
       "path": "packages/common-components"
-    },
-    {
-      "path": "packages/common-const"
-    },
-    {
-      "path": "packages/common-hooks"
-    },
-    // {
-    //   "path": "packages/common-lib"
-    // },
-    // {
-    //   "path": "packages/common-styles"
-    // },
-    {
-      "path": "packages/common-types"
-    },
-    {
-      "path": "packages/common-utils"
     }
   ],
   "exclude": ["packages/**/dist/**"],
