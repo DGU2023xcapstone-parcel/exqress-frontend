@@ -1,8 +1,8 @@
-// import { useRecoilState } from "recoil";
+import { useRecoilState } from "recoil";
 import { Outlet } from "react-router-dom";
-// import { authState } from "@/recoil/auth";
+import { authState } from "@/recoil/auth";
 import Navigation from "@/components/common/navigation";
-import * as style from "./Layout.style";
+import * as style from "./Layout.style.js";
 
 const Layout = () => {
   // const [isauth] = useRecoilState(authState);

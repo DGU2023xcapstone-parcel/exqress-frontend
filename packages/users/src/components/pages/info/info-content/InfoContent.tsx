@@ -1,4 +1,4 @@
-import * as style from "./InfoContent.style";
+import * as style from "./InfoContent.style.js";
 
 interface InfoContentProps {
   date: string;
@@ -6,7 +6,7 @@ interface InfoContentProps {
   invoiceNo: string;
   name: string;
   company: string;
-  onClick: () => void;
+  // onClick: () => void;
 }
 
 const InfoContent = ({
@@ -15,11 +15,11 @@ const InfoContent = ({
   invoiceNo,
   name,
   company,
-  onClick,
-}: InfoContentProps) => {
+}: // onClick,
+InfoContentProps) => {
   return (
     <style.Wrapper>
-      <div onClick={onClick}>
+      <div>
         <style.Text isBig={false} isDark>
           {date}
         </style.Text>

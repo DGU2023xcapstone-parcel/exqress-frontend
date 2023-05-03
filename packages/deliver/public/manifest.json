@@ -1,6 +1,6 @@
 {
-  "name": "EXQRESS for deliver",
-  "short_name": "EXQRESS for deliver",
+  "name": "EXQRESS",
+  "short_name": "EXQRESS",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
