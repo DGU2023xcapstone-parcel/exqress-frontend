@@ -1,5 +1,32 @@
-# yarn-berry-monorepo-template
+# exqress-frontend monorepo (feat. yarn berry)
 
-- yarn berry로 만드는 모노레포 템플릿
-- node -v: 16.17.0
-- yarn -v: 3.2.3
+### global install
+
+<pre>yarn install</pre>
+
+### install deliver app
+
+<pre>yarn workspace deliver install</pre>
+
+### run deliver app
+
+<pre>yarn workspace deliver run dev</pre>
+
+### build deliver app
+
+<pre>yarn workspace deliver run build</pre>
+<br/>
+<hr/>
+<br/>
+
+### install user app
+
+<pre>yarn workspace user install</pre>
+
+### run user app
+
+<pre>yarn workspace user run dev</pre>
+
+### build user app
+
+<pre>yarn workspace user run build</pre>
