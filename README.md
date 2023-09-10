@@ -4,14 +4,14 @@
   <h2 align="center">📦 EXQRESS</h2>
 </p>
 
-## 📄 프로젝트 소개
+## 📍 프로젝트 소개
 
 https://exqress.webflow.io/
 
 <img src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/da8e3920-a22b-4ab1-9119-0af51eaa96ee">  
 <img src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/c9e10098-7319-4c9b-904f-2097307ee284">
 
-## 📄 운송장
+## 🗒️ 운송장
 
 <p>직접 제작한 윤송장을 통해 개인정보를 보호하며 택배 조회가 가능합니다.</p>
 <img width="300" src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/30c0c603-9ebb-4e3d-8e7d-2f47a352da04">
@@ -28,11 +28,11 @@ https://exqress.webflow.io/
 | :-------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                   AND                                                                   |                                                                   IOS                                                                   |
 
-## 📄 프로젝트 기능도
+## 🗺️ 프로젝트 기능도
 
 <div style="text-align:center"><img width="400" src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/eac05b28-540a-4aea-900a-4f3508666fbd"></div>
 
-## 📄 기술 스택
+## 🛠️ 기술 스택
 
 <div style="text-align:center"><img width="400" src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/26533d49-fb6f-4110-93f0-ec81215513a1"></div>
 
