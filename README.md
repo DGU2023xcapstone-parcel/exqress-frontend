@@ -8,37 +8,33 @@
 
 https://exqress.webflow.io/
 
-<img src="https://github.com/kim-limit/exqress-user-frontend/assets/101790391/720455c8-59e0-44ed-b705-3c8f7bac142e">  
-<img src="https://github.com/kim-limit/exqress-user-frontend/assets/101790391/cba91ff8-cc8e-423b-b7a6-54b58d21ddb4">
+<img src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/da8e3920-a22b-4ab1-9119-0af51eaa96ee">  
+<img src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/c9e10098-7319-4c9b-904f-2097307ee284">
 
 ## 📄 운송장
 
 <p>직접 제작한 윤송장을 통해 개인정보를 보호하며 택배 조회가 가능합니다.</p>
-<img width="300" src="https://github.com/kim-limit/exqress-user-frontend/assets/101790391/4823dead-0da9-4380-9303-9122e8971738">
+<img width="300" src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/30c0c603-9ebb-4e3d-8e7d-2f47a352da04">
 
 ### 👀 UI
 
-| <img src="https://github.com/kim-limit/exqress-user-frontend/assets/101790391/690f4462-6daf-4ef1-b4f6-3dfdaca92127" width=180> | <img src="https://github.com/kim-limit/exqress-user-frontend/assets/101790391/960fc969-ec0b-4680-8f9e-66710a308386" width=180> |   <img src="https://github.com/kim-limit/exqress-user-frontend/assets/101790391/695d3823-cd76-4225-8228-96553fd34c0d" width=180>   | <img src="https://github.com/kim-limit/exqress-user-frontend/assets/101790391/8c9ab3f3-2b52-446d-b3f5-50f4df66a8a2" width=180> |
-| :----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
-|                                                             로그인                                                             |                                                            회원가입                                                            |                                                           배송 정보 확인                                                           |                                                            QR 스캔                                                             |
-| <img src="https://github.com/kim-limit/exqress-user-frontend/assets/101790391/44f1e19c-1808-4142-a991-4821cc969ae9" width=180> | <img src="https://github.com/kim-limit/exqress-user-frontend/assets/101790391/33507d96-037f-4fc9-a744-42730d313111" width=180> | <img src="https://github.com/kim-limit/exqress-user-frontend/assets/101790391/fa66bbfd-6a7d-40e4-82a7-e8628b1381cd" width="180" /> | <img src="https://github.com/kim-limit/exqress-user-frontend/assets/101790391/eb8ebab7-b931-4c40-a499-dc393928c9ff" width=180> |
-|                                                        사용자 배송 조회                                                        |                                                         배송 상세 조회                                                         |                                                            QR 스캔 결과                                                            |                                                          QR 스캔 실패                                                          |
+| <img src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/9147f4d4-4bc5-4b75-aa1f-1722cd1b3c72" width=180> | <img src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/7217029f-382f-498e-921b-0bdb370d952d" width=180> |   <img src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/19fe163c-12e9-4b74-be75-ceac9d86bba5" width=180>   | <img src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/a2a910ba-c78d-48f8-b3a9-5c3ec9d9cdf3" width=180> |
+| :-------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                 로그인                                                                  |                                                                회원가입                                                                 |                                                               배송 정보 확인                                                                |                                                                 QR 스캔                                                                 |
+| <img src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/3ae41ba5-e7ca-43e8-ba76-0546c2fbd932" width=180> | <img src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/7c9d27cf-e0a6-42eb-8815-8f23101e1e94" width=180> | <img src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/0b337744-6c67-47b6-b4e7-5422a005014a" width="180" /> | <img src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/cf82020f-aa47-44ec-8f07-5c48b36be367" width=180> |
+|                                                            사용자 배송 조회                                                             |                                                             배송 상세 조회                                                              |                                                                QR 스캔 결과                                                                 |                                                              QR 스캔 실패                                                               |
 
 | <img src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/42218c8a-9073-48f6-bb67-964477a832b3" width=400> | <img src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/7bd11a43-835e-4044-bbed-cd415a956fb9" width=400> |
 | :-------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                   AND                                                                   |                                                                   IOS                                                                   |
 
-## 📄 인프라
-
-<img src="https://github.com/kim-limit/exqress-user-frontend/assets/101790391/16d69833-62c0-45df-9193-46e4288289a1">
-
 ## 📄 프로젝트 기능도
 
-<div style="text-align:center"><img width="400" src="https://github.com/kim-limit/exqress-user-frontend/assets/101790391/5836a07d-7e1b-4cc8-a3d5-8119eaf2ae41"></div>
+<div style="text-align:center"><img width="400" src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/eac05b28-540a-4aea-900a-4f3508666fbd"></div>
 
 ## 📄 기술 스택
 
-<div style="text-align:center"><img width="400" src="https://github.com/kim-limit/exqress-user-frontend/assets/101790391/7f97aa8c-dc1a-497e-b9be-52ea38911ffa"></div>
+<div style="text-align:center"><img width="400" src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/26533d49-fb6f-4110-93f0-ec81215513a1"></div>
 
 ## 📒 참고 자료
 
