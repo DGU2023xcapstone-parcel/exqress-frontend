@@ -24,6 +24,10 @@ https://exqress.webflow.io/
 | <img src="https://github.com/kim-limit/exqress-user-frontend/assets/101790391/44f1e19c-1808-4142-a991-4821cc969ae9" width=180> | <img src="https://github.com/kim-limit/exqress-user-frontend/assets/101790391/33507d96-037f-4fc9-a744-42730d313111" width=180> | <img src="https://github.com/kim-limit/exqress-user-frontend/assets/101790391/fa66bbfd-6a7d-40e4-82a7-e8628b1381cd" width="180" /> | <img src="https://github.com/kim-limit/exqress-user-frontend/assets/101790391/eb8ebab7-b931-4c40-a499-dc393928c9ff" width=180> |
 |                                                        사용자 배송 조회                                                        |                                                         배송 상세 조회                                                         |                                                            QR 스캔 결과                                                            |                                                          QR 스캔 실패                                                          |
 
+| <img src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/42218c8a-9073-48f6-bb67-964477a832b3" width=400> | <img src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/7bd11a43-835e-4044-bbed-cd415a956fb9" width=400> |
+| :-------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                   AND                                                                   |                                                                   IOS                                                                   |
+
 ## 📄 인프라
 
 <img src="https://github.com/kim-limit/exqress-user-frontend/assets/101790391/16d69833-62c0-45df-9193-46e4288289a1">
