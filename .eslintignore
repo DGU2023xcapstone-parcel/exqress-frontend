@@ -1,6 +1,0 @@
-dist
-node_modules
-.yarn
-.pnp.cjs
-.pnp.loager.mjs
-vite.config.ts

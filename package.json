@@ -1,29 +1,12 @@
 {
-  "name": "yarn-berry-monorepo-template",
-  "packageManager": "yarn@3.2.3",
+  "name": "exqress-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "deliver:dev": "yarn workspace deliver dev",
-    "user:dev": "yarn workspace user dev",
-    "deliver:build": "yarn workspace deliver build",
-    "user:build": "yarn workspace user build",
-    "common-components": "yarn workspace @common/components"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "workspaces": [
-    "packages/*"
-  ],
-  "devDependencies": {
-    "@tanstack/react-query-devtools": "4.20.4",
-    "@types/node": "18.16.0",
-    "@types/react": "18.0.28",
-    "@types/react-dom": "18.0.11",
-    "@typescript-eslint/eslint-plugin": "5.57.1",
-    "@typescript-eslint/parser": "5.57.1",
-    "@vitejs/plugin-react-swc": "3.0.0",
-    "eslint": "8.38.0",
-    "eslint-plugin-react-hooks": "4.6.0",
-    "eslint-plugin-react-refresh": "0.3.4",
-    "typescript": "5.0.2",
-    "vite": "4.3.0",
-    "vite-tsconfig-paths": "4.2.0"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
