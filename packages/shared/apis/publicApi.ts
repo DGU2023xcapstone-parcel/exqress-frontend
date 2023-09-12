@@ -1,6 +1,6 @@
 import { AxiosRequestConfig } from "axios";
 
-import { CommonResponse } from "@/types/api";
+import { CommonResponse } from "./types";
 import { publicApi } from "./API";
 
 /**

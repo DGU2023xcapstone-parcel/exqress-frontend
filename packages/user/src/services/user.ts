@@ -1,7 +1,7 @@
 import { RefreshType, SignInInputType, SignUpInputType } from "@/types/sign";
 import { postPublicApi } from "@/apis/publicApi";
 import { postAuthApi } from "@/apis/authApi";
-import { setAccessToken } from "../apis/API";
+import { setAccessToken } from "@/apis/API";
 
 /**
  * 회원가입

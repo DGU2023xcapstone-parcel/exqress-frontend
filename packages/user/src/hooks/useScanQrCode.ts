@@ -15,36 +15,40 @@ export const useScanQrCode = () => {
   const navigate = useNavigate();
 
   const [qrId, setQrId] = useState("");
-  const { data, mutate, isSuccess } = useMutation(queryKeys.scan, scanQrCode, {
-    onSuccess: () => {
-      useCustomToast("success", "스캔에 성공했습니다.");
-    },
-    onError: () => {
-      // 서버오류
-      if (data?.status === "500") {
-        useCustomToast("error", "다시 시도해주세요");
-        // 회원 택배 아닌경우
-      } else {
-        useCustomToast("error", "회원님의 택배가 아닙니다. 반송처리해주세요");
-        navigate("/scan/result", {
-          state: {
-            isSuccess: false,
-            infoData: {
-              invoiceNo: "",
-              productName: "",
-              receiverName: "",
-              state: "",
-              address: "",
-              deliveryName: "",
-              company: "",
-              createdDate: "",
+  const { data, mutate, isSuccess } = useMutation(
+    queryKeys.scan(),
+    scanQrCode,
+    {
+      onSuccess: () => {
+        useCustomToast("success", "스캔에 성공했습니다.");
+      },
+      onError: () => {
+        // 서버오류
+        if (data?.status === "500") {
+          useCustomToast("error", "다시 시도해주세요");
+          // 회원 택배 아닌경우
+        } else {
+          useCustomToast("error", "회원님의 택배가 아닙니다. 반송처리해주세요");
+          navigate("/scan/result", {
+            state: {
+              isSuccess: false,
+              infoData: {
+                invoiceNo: "",
+                productName: "",
+                receiverName: "",
+                state: "",
+                address: "",
+                deliveryName: "",
+                company: "",
+                createdDate: "",
+              },
+              qrId: qrId,
             },
-            qrId: qrId,
-          },
-        });
-      }
-    },
-  });
+          });
+        }
+      },
+    }
+  );
 
   const handleError = (error: Event) => {
     console.log(error);

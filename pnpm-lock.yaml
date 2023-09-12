@@ -47,9 +47,6 @@ dependencies:
   recoil:
     specifier: 0.7.7
     version: 0.7.7(react-dom@18.2.0)(react@18.2.0)
-  redux:
-    specifier: ^4.2.1
-    version: 4.2.1
 
 devDependencies:
   '@tanstack/react-query-devtools':
@@ -1900,12 +1897,6 @@ packages:
       hamt_plus: 1.0.2
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-    dev: false
-
-  /redux@4.2.1:
-    resolution: {integrity: sha512-LAUYz4lc+Do8/g7aeRa8JkyDErK6ekstQaqWQrNRW//MY1TvCEpMtpTWvlQ+FPbWCx+Xixu/6SHt5N0HR+SB4w==}
-    dependencies:
-      '@babel/runtime': 7.22.15
     dev: false
 
   /regenerator-runtime@0.14.0:

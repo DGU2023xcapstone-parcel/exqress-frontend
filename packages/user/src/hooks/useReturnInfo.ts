@@ -14,7 +14,7 @@ import useCustomToast from "./useCustomToast";
 export const useReturnInfo = (props: ScanType) => {
   const navigate = useNavigate();
 
-  const { mutate } = useMutation(queryKeys.info, returnInfo, {
+  const { mutate } = useMutation(queryKeys.info(), returnInfo, {
     onSuccess: () => {
       useCustomToast("success", "반송처리 되었습니다.");
       navigate({ pathname: "/info" });

@@ -6,7 +6,7 @@ import { useMutation } from "@tanstack/react-query";
 import { signIn } from "@/services/user";
 import { authState } from "@/recoil/auth";
 import { SignInInputType } from "@/types/sign";
-import { CustomAxiosErrorType } from "@/types/api";
+import { CustomAxiosErrorType } from "@/apis/types";
 import { queryKeys } from "@/react-query/constants";
 import useCustomToast from "./useCustomToast";
 
@@ -23,7 +23,7 @@ export const useSignIn = () => {
     password: "",
   });
 
-  const { mutate } = useMutation(queryKeys.user, signIn, {
+  const { mutate } = useMutation(queryKeys.user(), signIn, {
     onError: (error: CustomAxiosErrorType) => {
       useCustomToast("error", error.response?.data.message);
     },

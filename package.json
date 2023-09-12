@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev-deliver": "vite packages/deliver",
+    "dev-user": "vite packages/user",
+    "build-deliver": "cd packages/deliver && tsc && vite build",
+    "build-user": "cd packages/user && tsc && vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

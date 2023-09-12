@@ -24,7 +24,6 @@
     "paths": {
       "~/*": ["./*"],
       "@/assets/*": ["./src/assets/*"],
-      "@/apis/*": ["./src/apis/*"],
       "@/components/*": ["./src/components/*"],
       "@/constants/*": ["./src/constants/*"],
       "@/hooks/*": ["./src/hooks/*"],
@@ -34,7 +33,8 @@
       "@/types/*": ["./src/types/*"],
       "@/utils/*": ["./src/utils/*"],
       "@/services/*": ["./src/services/*"],
-      "@/react-query/*": ["./src/react-query/*"]
+      "@/react-query/*": ["./src/react-query/*"],
+      "@/apis/*": ["../shared/apis/*"]
     }
   },
   "include": ["src"],

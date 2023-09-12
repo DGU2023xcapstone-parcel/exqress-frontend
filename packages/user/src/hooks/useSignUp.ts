@@ -4,7 +4,7 @@ import { useMutation } from "@tanstack/react-query";
 
 import { signUp } from "@/services/user";
 import { queryKeys } from "@/react-query/constants";
-import { CustomAxiosErrorType } from "@/types/api";
+import { CustomAxiosErrorType } from "@/apis/types";
 import { SignUpInputType, SignUpType, SignUpValidateType } from "@/types/sign";
 import { validateAll, validateSignUp } from "@/utils/valid";
 import useCustomToast from "./useCustomToast";
@@ -31,7 +31,7 @@ export const useSignUp = () => {
   });
   const [isSignUpActivate, setIsSignUpActivate] = useState(false);
 
-  const { mutate } = useMutation(queryKeys.user, signUp, {
+  const { mutate } = useMutation(queryKeys.user(), signUp, {
     onError: (error: CustomAxiosErrorType) => {
       useCustomToast("error", error.response?.data.message);
     },

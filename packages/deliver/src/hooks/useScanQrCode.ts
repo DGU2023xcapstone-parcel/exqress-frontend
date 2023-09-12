@@ -4,7 +4,7 @@ import { useMutation } from "@tanstack/react-query";
 
 import { scanQrCode } from "@/services/scan";
 import { queryKeys } from "@/react-query/constants";
-import { CustomAxiosErrorType } from "@/types/api";
+import { CustomAxiosErrorType } from "@/apis/types";
 import useCustomToast from "./useCustomToast";
 
 /**
@@ -16,7 +16,7 @@ export const useScanQrCode = () => {
   const naviage = useNavigate();
   const [result, setResult] = useState("");
 
-  const { mutate } = useMutation(queryKeys.scan, scanQrCode, {
+  const { mutate } = useMutation(queryKeys.scan(), scanQrCode, {
     onError: (error: CustomAxiosErrorType) => {
       useCustomToast("error", error.response?.data.message);
     },

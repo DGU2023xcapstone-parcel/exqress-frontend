@@ -3,7 +3,7 @@ import { queryKeys } from "@/react-query/constants";
 
 import { completeDeliver } from "@/services/info";
 import { InfoType } from "@/types/info";
-import { CustomAxiosErrorType } from "@/types/api";
+import { CustomAxiosErrorType } from "@/apis/types";
 import useCustomToast from "./useCustomToast";
 import { useGetInfoList } from "./useGetInfoList";
 
@@ -13,7 +13,7 @@ import { useGetInfoList } from "./useGetInfoList";
  */
 export const useCompleteDeliver = () => {
   const { refetchInfo } = useGetInfoList();
-  const { mutate } = useMutation(queryKeys.user, completeDeliver, {
+  const { mutate } = useMutation(queryKeys.user(), completeDeliver, {
     onError: (error: CustomAxiosErrorType) => {
       useCustomToast("error", error.response?.data.message);
     },

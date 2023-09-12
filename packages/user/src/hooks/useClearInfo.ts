@@ -16,7 +16,7 @@ export const useClearInfo = (props: Pick<InfoType, "invoiceNo">) => {
   const navigate = useNavigate();
 
   const { refetchInfo } = useGetInfoList();
-  const { mutate } = useMutation(queryKeys.info, clearInfo, {
+  const { mutate } = useMutation(queryKeys.info(), clearInfo, {
     onSuccess: () => {
       useCustomToast("success", "개인정보가 파기되었습니다.");
       refetchInfo();

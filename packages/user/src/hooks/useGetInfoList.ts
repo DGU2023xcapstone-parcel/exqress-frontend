@@ -4,7 +4,7 @@ import { useQuery } from "@tanstack/react-query";
 
 import { getInfoList } from "@/services/info";
 import { queryKeys } from "@/react-query/constants";
-import { CustomAxiosErrorType } from "@/types/api";
+import { CustomAxiosErrorType } from "@/apis/types";
 import { authState } from "@/recoil/auth";
 import useCustomToast from "./useCustomToast";
 
@@ -15,7 +15,7 @@ import useCustomToast from "./useCustomToast";
 export const useGetInfoList = () => {
   const [isAuth] = useRecoilState(authState);
 
-  const { data = [], refetch } = useQuery(queryKeys.info, getInfoList, {
+  const { data = [], refetch } = useQuery(queryKeys.info(), getInfoList, {
     enabled: false,
     onError: (error: CustomAxiosErrorType) => {
       useCustomToast("error", error.response?.data.message);

@@ -15,7 +15,7 @@ export const useRefreshToken = async () => {
   const navigate = useNavigate();
   const [isAuth, setIsAuth] = useRecoilState(authState);
 
-  const { refetch } = useQuery(queryKeys.user, refreshToken, {
+  const { refetch } = useQuery(queryKeys.user(), refreshToken, {
     enabled: false,
     onSuccess: () => {
       setIsAuth(true);

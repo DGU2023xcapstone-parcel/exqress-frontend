@@ -16,7 +16,7 @@ export const useSignOut = () => {
   const navigate = useNavigate();
   const [, setIsAuth] = useRecoilState(authState);
 
-  const { mutate } = useMutation(queryKeys.user, signOut, {
+  const { mutate } = useMutation(queryKeys.user(), signOut, {
     onError: () => {
       useCustomToast("error", "다시 시작해서 로그인 해주세요");
     },
