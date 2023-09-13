@@ -1,20 +1,35 @@
-<p align="center">
-  QR 코드를 이용한
-운송장 정보 보호 서비스
-  <h2 align="center">📦 EXQRESS</h2>
-</p>
+<h1> 
+  
+📦 [EXQRESS](https://exqress.webflow.io/) 
+</h1>
+  
 
 ## 📍 프로젝트 소개
-
-https://exqress.webflow.io/
+<h3> QR 코드를 이용한 운송장 정보 보호 서비스 </h3> 
 
 <img src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/da8e3920-a22b-4ab1-9119-0af51eaa96ee">  
 <img src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/c9e10098-7319-4c9b-904f-2097307ee284">
 
-## 🗒️ 운송장
+<h3>참여 과제</h3>
 
-<p>직접 제작한 윤송장을 통해 개인정보를 보호하며 택배 조회가 가능합니다.</p>
+* 동국대학교 정보통신공학과 CAPSTONE DEGINE 프로젝트
+* 한이음 ICT 공모전 참여 프로젝트
+
+</br> 
+
+<h3>주제 선정 및 목표 설정</h3>
+
+1. 택배 운송장에 보여지는 개인 정보 유출로 인해 범죄 악용 사례가 증가하고 있다.
+2. 택배 운송장에 보여지는 정보를 암호화 처리한 QR코드로 대체하여 개인 정보 유출 피해를 막고 여러 택배 회사들의 택배 서비스를 일괄적으로 관리, 운용하여 편의성을 증진한다.
+3. QR코드 한 가지 정보만 이용하여 배송, 수령, 폐기 과정이 이루어진다고 가정한다면 배송 과정에서 택배 기사에게 부담이 가중된다. 이를 스티커 형태로 제거 가능한 운송장을 직접 제작하여 가능성을 실험해본다.
+
+
+<div align='center'> 
+  
+
 <img width="300" src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/30c0c603-9ebb-4e3d-8e7d-2f47a352da04">
+</div>
+</br> 
 
 ### 👀 UI
 
@@ -34,7 +49,29 @@ https://exqress.webflow.io/
 
 ## 🛠️ 기술 스택
 
-<div style="text-align:center"><img width="400" src="https://github.com/DGU2023xcapstone-parcel/exqress-frontend/assets/101790391/26533d49-fb6f-4110-93f0-ec81215513a1"></div>
+
+| ![image](https://github.com/jw0293/exqress-admin-service/assets/80098469/0445d2bb-ad91-4c88-a883-50203ddc6b3d) | ![image](https://github.com/jw0293/exqress-admin-service/assets/80098469/a4a42c87-92f3-46c8-997f-464aa3731a6c) | ![image](https://github.com/jw0293/exqress-admin-service/assets/80098469/d947646d-427f-4d26-9358-f8ca02d4d1cc) |
+| :------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: |  
+|                                               BACK-END                                                    |                                                FRONT-END                                                     |                                            CI/CD                                          
+
+<h2>⌘ Infrastructure Architecture</h2>
+
+<div aligen='center'>
+  
+| ![image](https://github.com/jw0293/exqress-admin-service/assets/80098469/f61c7914-1b25-4856-b5f1-cbf28b21f030) |
+| :------------------------------------------------------------------------------------------------------------: |
+|                                          Infrastructure Architecture                                           |
+
+</div>
+
+<h2>팀 구성</h2>
+
+
+|                 Backend            |                      Frontend                     |                     DevOps        |                  
+|:----------------------------:|:---------------------------:|:--------------------------:|
+| ![](https://github.com/jw0293.png?size=150) | ![](https://github.com/kim-limit.png?size=150) | <img src="https://github.com/hsshin0602.png" width="150px"/>   |
+|      [김중원](https://github.com/jw0293)       |      [김재한](https://github.com/kim-limit)       |      [신현식](https://github.com/hsshin0602)       |   
+
 
 ## 📒 참고 자료
 
